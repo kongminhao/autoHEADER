@@ -1,9 +1,8 @@
 "--------------------------------------------------------------------------------
 "     File Name           :     autoHEADER.vim
 "     Created By          :     scukmh
-"     email               :     353213666@qq.com
 "     Creation Date       :     [2012-10-03 23:53]
-"     Last Modified       :     [2018-12-12 13:58]
+"     Last Modified       :     [2018-12-12 15:04]
 "     Description         :     Auto insert comment header block for varies
 "                               programing language
 "--------------------------------------------------------------------------------
@@ -46,7 +45,7 @@ fun! s:insert_header_with_ft(ft)
 
             let messages=[['File Name' , s:filename],
                         \ ['Created By' , g:autoHEADER_default_author],
-			            \ ['email', g:autoHeader_default_email],
+			            \ ['email', '353213666@qq.com'],
                         \ ['Creation Date' , '[' . strftime("%Y-%m-%d %H:%M") . ']'],
                         \ ['Last Modified' , '[AUTO_UPDATE_BEFORE_SAVE]'],
                         \ ['Description' , ' '],]
